@@ -1,9 +1,7 @@
 {
   "name": "youtube-redirect",
-  "version": "1.0.0",
-  "type": "module",
+  "ver": "1.0.0",
   "dependencies": {
-  "puppeteer-core": "^10.1.0",
-  "chrome-aws-lambda": "^10.1.0"
+    "puppeteer-core": "^21.11.0"
+  }
 }
-
