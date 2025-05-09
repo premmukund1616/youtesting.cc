@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+pyppeteer
+nest_asyncio

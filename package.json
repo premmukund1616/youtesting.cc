@@ -1,7 +1,0 @@
-{
-  "name": "youtube-redirect",
-  "ver": "1.0.0",
-  "dependencies": {
-    "puppeteer-core": "^21.11.0"
-  }
-}
