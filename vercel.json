@@ -1,8 +1,15 @@
 {
-  "functions": {
-    "api/redirect.js": {
-      "memory": 1024,
-      "maxDuration": 30
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/app.py",
+      "use": "@vercel/python"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/app.py"
+    }
+  ]
 }
